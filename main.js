@@ -8,10 +8,9 @@ let zero = document.querySelector("label");
 person.value=" ";
 
 person.addEventListener("input", function (){
-  if (person.value === "0"){
+  if (person.value === 0){
     zero.classList.toggle("zero2")
     person.classList.toggle("person2")
   }
-    }
-);
+    });
 

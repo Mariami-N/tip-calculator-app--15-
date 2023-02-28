@@ -260,3 +260,12 @@ h4{
     color: #7F9D9F;
 
 }
+
+
+
+@media(max-width:375px){
+.box{
+    Width: 375px;
+    Height: 789px;
+}
+}
