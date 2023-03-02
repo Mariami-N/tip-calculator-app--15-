@@ -36,9 +36,8 @@
     display: flex;
     justify-content: space-around;
     align-content: space-around;
-    
 }
-label{
+.bill1{
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -53,6 +52,7 @@ h6{
     font-size: 16px;
     line-height: 24px;
     color: #5E7A7D;
+    margin-top: 40px;
 }
 .first{
     display: flex;
@@ -69,6 +69,7 @@ h6{
     grid-template-columns: auto auto auto;
     column-gap: 14px;
     gap: 16px;
+    margin-top: 20px;
 }
 button{
     Width: 117px;
@@ -93,8 +94,21 @@ button:hover{
     border-radius: 5px;
     border: none;
     background-color: #C5E4E7;
+    color: #00474B;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
 }
-.blue{
+.Custom::placeholder{
+    text-align: center;
+}
+.Custom:hover{
+cursor: pointer;
+}
+.percent15{
     background-color: #26C2AE;
     color: #00474B;
     font-family: 'Space Mono';
@@ -103,7 +117,6 @@ button:hover{
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-
 }
 .bill{
     Width: 379px;
@@ -113,7 +126,6 @@ button:hover{
     background-color: #F3F9FA;
     color: #00474B;
     font-family: 'Space Mono';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -149,32 +161,37 @@ button:hover{
     line-height: 30px;
     text-align: right;
 }
-.person2{
-    border: 2px solid red;
-}
-.zero2{
-opacity: 1;
-}
 .person::placeholder{
     text-align: start;
 }
+.person:hover{
+    cursor: pointer;
+}
 .labels{
     width: 379px;
-    background-color: #26C2AE;
     height: 30px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 .people{
-    /* float: left; */
-    display: inline-block;
     Width: 157px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D;
 }
 .zero{
-    margin-left: 250px;
-    display: inline-block;
-    opacity: 0;
+    display: none;
     color: red;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
 }
 .amount{
     width: 333px;
@@ -217,7 +234,7 @@ opacity: 1;
 .reset:hover{
     cursor: pointer;
 }
-p{
+.tipamount{
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -226,6 +243,16 @@ p{
     text-align: right;
     letter-spacing: -1px;
     color: #26C2AE;
+}
+.totalperson{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #26C2AE;  
 }
 h5{
     font-family: 'Space Mono';
