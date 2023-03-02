@@ -11,15 +11,13 @@ let percent10 = document.querySelector(".percent10");
 let percent15 = document.querySelector(".percent15");             
 let percent25 = document.querySelector(".percent25");             
 let percent50 = document.querySelector(".percent50"); 
-
 let tipamount = document.querySelector(".tipamount");
-tipamount.innerHTML = `$ ${0.00}`;
 let totalperson = document.querySelector(".totalperson");
-totalperson.innerHTML = `$ ${0.00}`;
+
 
 
 person.addEventListener("input", function () {
-   person = document.querySelector(".person")
+   person = document.querySelector(".person");
    zero = document.querySelector("p");
   if (person.value == "0") {
       zero.style.display ="block";
@@ -29,7 +27,65 @@ person.addEventListener("input", function () {
       person.style.border = "none";
   }
 });
+    percent5 = document.querySelector(".percent5");
+    percent5.addEventListener('click',function () { 
+     bill = document.querySelector(".bill").value;
+     person = document.querySelector(".person").value;
+     tipamount = document.querySelector(".tipamount");
+     
+    if(bill && person){
+       amount = (bill * 0.05) / person;
+        tipamount.innerHTML = amount;
+    } console.log(amount)
+});
 
 
+percent10 = document.querySelector(".percent10");
+percent10.addEventListener('click',function () { 
+     bill = document.querySelector(".bill").value;
+     person = document.querySelector(".person").value;
+     tipamount = document.querySelector(".tipamount");
+     
+    if(bill && person){
+        amount = (bill * 0.10) / person;
+        tipamount.innerHTML = amount;
+    } console.log(amount)
+});
+
+percent15 = document.querySelector(".percent15");
+percent15.addEventListener('click',function () { 
+     bill = document.querySelector(".bill").value;
+     person = document.querySelector(".person").value;
+     tipamount = document.querySelector(".tipamount");
+     
+    if(bill && person){
+        amount = (bill * 0.15) / person;
+        tipamount.innerHTML = amount;
+    } console.log(amount)
+});
     
-    
+
+percent25 = document.querySelector(".percent25");
+percent25.addEventListener('click',function () { 
+     bill = document.querySelector(".bill").value;
+     person = document.querySelector(".person").value;
+     tipamount = document.querySelector(".tipamount");
+     
+    if(bill && person){
+        amount = (bill * 0.25) / person;
+        tipamount.innerHTML = amount;
+    } console.log(amount)
+});
+
+
+percent50 = document.querySelector(".percent50");
+percent50.addEventListener('click',function () { 
+     bill = document.querySelector(".bill").value;
+     person = document.querySelector(".person").value;
+     tipamount = document.querySelector(".tipamount");
+     
+    if(bill && person){
+        amount = (bill * 0.50) / person;
+        tipamount.innerHTML = amount;
+    } console.log(amount)
+});

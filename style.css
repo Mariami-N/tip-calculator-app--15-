@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&family=Space+Mono&display=swap');
 .container{
     width: 100vw;
     height: 100vh;
@@ -17,7 +17,7 @@
     margin-top: 163px;
     font-size: 30px;
     color: #6e0697;
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -38,7 +38,7 @@
     align-content: space-around;
 }
 .bill1{
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -46,7 +46,7 @@
     color: #29242b;
 }
 h6{
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -78,7 +78,7 @@ button{
     border: none;
     background-color: #8f2eb5;
     color: #29242b;
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -94,8 +94,8 @@ button:hover{
     border-radius: 5px;
     border: none;
     background-color: #dab8ed;
-    color: #e1a4f0;
-    font-family: 'Space Mono';
+    color: #15011e;
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -111,7 +111,7 @@ cursor: pointer;
 .percent15{
     background-color: #b18bf1;
     color: #15011e;
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -125,7 +125,7 @@ cursor: pointer;
     border: none;
     background-color: #d1b0f5;
     color: #00474B;
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -154,7 +154,7 @@ cursor: pointer;
     border: none;
     background-color: #d1b0f5;
     color: #00474B;
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -177,7 +177,7 @@ cursor: pointer;
 }
 .people{
     Width: 157px;
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -187,7 +187,7 @@ cursor: pointer;
 .zero{
     display: none;
     color: red;
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -223,7 +223,7 @@ cursor: pointer;
     height: 48px;
     background-color: #9b6ae8;
     color: #29242b;
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -235,7 +235,7 @@ cursor: pointer;
     cursor: pointer;
 }
 .tipamount{
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -245,7 +245,7 @@ cursor: pointer;
     color: #eddff5;
 }
 .totalperson{
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -255,7 +255,7 @@ cursor: pointer;
     color: #eddff5;  
 }
 h5{
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -263,7 +263,7 @@ h5{
     color: #FFFFFF;
 }
 h2{
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -271,7 +271,7 @@ h2{
     color: #FFFFFF;
 }
 h3{
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
@@ -279,7 +279,7 @@ h3{
     color: #7F9D9F;
 }
 h4{
-    font-family: 'Space Mono';
+    font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
