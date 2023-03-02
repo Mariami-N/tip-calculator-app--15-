@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
-    background-color: #C5E4E7;
+    background-color: #ede2f2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     Height: 65px;
     margin-top: 163px;
     font-size: 30px;
-    color: #00474B;
+    color: #6e0697;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -32,7 +32,7 @@
     border-radius: 25px;
     margin-bottom: 239px;
     /* margin-right: 260px; */
-    background-color: white;
+    background-color: rgb(223, 204, 238);
     display: flex;
     justify-content: space-around;
     align-content: space-around;
@@ -43,7 +43,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: #5E7A7D;
+    color: #29242b;
 }
 h6{
     font-family: 'Space Mono';
@@ -51,7 +51,7 @@ h6{
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: #5E7A7D;
+    color: #29242b;
     margin-top: 40px;
 }
 .first{
@@ -76,8 +76,8 @@ button{
     Height: 48px;
     border-radius: 5px;
     border: none;
-    background-color: #00474B;
-    color: white;
+    background-color: #8f2eb5;
+    color: #29242b;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -93,8 +93,8 @@ button:hover{
     Height: 48px;
     border-radius: 5px;
     border: none;
-    background-color: #C5E4E7;
-    color: #00474B;
+    background-color: #dab8ed;
+    color: #e1a4f0;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -109,8 +109,8 @@ button:hover{
 cursor: pointer;
 }
 .percent15{
-    background-color: #26C2AE;
-    color: #00474B;
+    background-color: #b18bf1;
+    color: #15011e;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -123,7 +123,7 @@ cursor: pointer;
     Height: 48px;
     border-radius: 5px;
     border: none;
-    background-color: #F3F9FA;
+    background-color: #d1b0f5;
     color: #00474B;
     font-family: 'Space Mono';
     font-weight: 700;
@@ -141,7 +141,7 @@ cursor: pointer;
     Width: 413px;
     Height: 417px;
     border-radius: 15px;
-    background-color: #00474B;
+    background-color: #38025f;
     margin-top: 32px;
     right: 32px;
     display: flex;
@@ -152,7 +152,7 @@ cursor: pointer;
     Height: 48px;
     border-radius: 5px;
     border: none;
-    background-color: #F3F9FA;
+    background-color: #d1b0f5;
     color: #00474B;
     font-family: 'Space Mono';
     font-style: normal;
@@ -182,7 +182,7 @@ cursor: pointer;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: #5E7A7D;
+    color: #29242b;
 }
 .zero{
     display: none;
@@ -221,8 +221,8 @@ cursor: pointer;
 .reset{
     width: 333px;
     height: 48px;
-    background-color: #26C2AE;
-    color: #00474B;
+    background-color: #9b6ae8;
+    color: #29242b;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -242,7 +242,7 @@ cursor: pointer;
     line-height: 71px;
     text-align: right;
     letter-spacing: -1px;
-    color: #26C2AE;
+    color: #eddff5;
 }
 .totalperson{
     font-family: 'Space Mono';
@@ -252,7 +252,7 @@ cursor: pointer;
     line-height: 71px;
     text-align: right;
     letter-spacing: -1px;
-    color: #26C2AE;  
+    color: #eddff5;  
 }
 h5{
     font-family: 'Space Mono';
