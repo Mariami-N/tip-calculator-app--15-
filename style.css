@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
-    background-color: #ede2f2;
+    background-color: #ddddd7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     Height: 65px;
     margin-top: 163px;
     font-size: 30px;
-    color: #6e0697;
+    color: #332e0a;
     font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
@@ -32,7 +32,7 @@
     border-radius: 25px;
     margin-bottom: 239px;
     /* margin-right: 260px; */
-    background-color: rgb(223, 204, 238);
+    background-color: rgb(154, 154, 154);
     display: flex;
     justify-content: space-around;
     align-content: space-around;
@@ -76,8 +76,8 @@ button{
     Height: 48px;
     border-radius: 5px;
     border: none;
-    background-color: #8f2eb5;
-    color: #29242b;
+    background-color: rgb(246, 246, 43);
+    color: #2a292a;
     font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
@@ -93,8 +93,8 @@ button:hover{
     Height: 48px;
     border-radius: 5px;
     border: none;
-    background-color: #dab8ed;
-    color: #15011e;
+    background-color: rgb(251, 251, 111);
+    color: #1c1e01;
     font-family: 'Shantell Sans';
     font-style: normal;
     font-weight: 700;
@@ -109,7 +109,7 @@ button:hover{
 cursor: pointer;
 }
 .percent15{
-    background-color: #b18bf1;
+    background-color: #cccec5;
     color: #15011e;
     font-family: 'Shantell Sans';
     font-style: normal;
@@ -123,7 +123,7 @@ cursor: pointer;
     Height: 48px;
     border-radius: 5px;
     border: none;
-    background-color: #d1b0f5;
+    background-color: white;
     color: #00474B;
     font-family: 'Shantell Sans';
     font-weight: 700;
@@ -141,7 +141,7 @@ cursor: pointer;
     Width: 413px;
     Height: 417px;
     border-radius: 15px;
-    background-color: #38025f;
+    background-color: rgb(98, 98, 96);
     margin-top: 32px;
     right: 32px;
     display: flex;
@@ -152,7 +152,7 @@ cursor: pointer;
     Height: 48px;
     border-radius: 5px;
     border: none;
-    background-color: #d1b0f5;
+    background-color: white;
     color: #00474B;
     font-family: 'Shantell Sans';
     font-style: normal;
@@ -221,7 +221,7 @@ cursor: pointer;
 .reset{
     width: 333px;
     height: 48px;
-    background-color: #9b6ae8;
+    background-color: rgb(246, 246, 43);
     color: #29242b;
     font-family: 'Shantell Sans';
     font-style: normal;
