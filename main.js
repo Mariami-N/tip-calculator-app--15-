@@ -1,8 +1,4 @@
-let container = document.querySelector(".container");
-let box = document.querySelector(".box");
-let first = document.querySelector(".first");
 let bill = document.querySelector(".bill");
-let second = document.querySelector(".second");
 let person = document.querySelector(".person");
 let zero = document.querySelector(".zero");
 let custom = document.querySelector(".custom");
@@ -13,11 +9,11 @@ let percent25 = document.querySelector(".percent25");
 let percent50 = document.querySelector(".percent50"); 
 let tipamount = document.querySelector(".tipamount");
 let totalperson = document.querySelector(".totalperson");
-
+let reset = document.querySelector(".reset");
 
 person.addEventListener("input", function () {
    person = document.querySelector(".person");
-   zero = document.querySelector("p");
+   zero = document.querySelector(".zero");
   if (person.value == "0") {
       zero.style.display ="block";
       person.style.border = "1px solid red";
@@ -26,12 +22,11 @@ person.addEventListener("input", function () {
       person.style.border = "none";
   }
 });
+
     percent5 = document.querySelector(".percent5");
     percent5.addEventListener("click",function () { 
     bill = document.querySelector(".bill").value;
     person = document.querySelector(".person").value;
-    tipamount = document.querySelector(".tipamount");
-    totalperson = document.querySelector(".totalperson");
 
     if(bill && person){
         amount = (bill * 0.05) / person;
@@ -43,13 +38,10 @@ person.addEventListener("input", function () {
     } 
     });
 
-
     percent10 = document.querySelector(".percent10");
     percent10.addEventListener("click",function () { 
      bill = document.querySelector(".bill").value;
      person = document.querySelector(".person").value;
-     tipamount = document.querySelector(".tipamount");
-     totalperson = document.querySelector(".totalperson");
 
     if(bill && person){
         amount = (bill * 0.10) / person;
@@ -66,7 +58,6 @@ percent15 = document.querySelector(".percent15");
 percent15.addEventListener("click",function () { 
      bill = document.querySelector(".bill").value;
      person = document.querySelector(".person").value;
-     tipamount = document.querySelector(".tipamount");
      
     if(bill && person){
         amount = (bill * 0.15) / person;
@@ -78,12 +69,10 @@ percent15.addEventListener("click",function () {
     } 
 });
     
-
 percent25 = document.querySelector(".percent25");
 percent25.addEventListener("click",function () { 
      bill = document.querySelector(".bill").value;
      person = document.querySelector(".person").value;
-     tipamount = document.querySelector(".tipamount");
      
     if(bill && person){
         amount = (bill * 0.25) / person;
@@ -95,12 +84,10 @@ percent25.addEventListener("click",function () {
     } console.log(amount)
 });
 
-
 percent50 = document.querySelector(".percent50");
-percent50.addEventListener("click",function () { 
+percent50.addEventListener("click", function () { 
      bill = document.querySelector(".bill").value;
      person = document.querySelector(".person").value;
-     tipamount = document.querySelector(".tipamount");
      
     if(bill && person){
         amount = (bill * 0.50) / person;
@@ -112,18 +99,23 @@ percent50.addEventListener("click",function () {
     } 
 });
 
-//  custom = document.querySelector(".custom");
-//  custom.addEventListener("input", function (){
-//     if (custom.value = "0"){
+    custom = document.querySelector(".custom");
+    custom.addEventListener("input", function (){
+        bill = document.querySelector(".bill").value;
+        person = document.querySelector(".person").value;
 
-//         if(bill && person){
-//             amount = (bill * custom.value ) / person;
-//             amount = amount.toFixed(2);
-//             tipamount.innerHTML = `$ ${amount}`;
-//             total = (bill / person) + (bill * custom.value) / person;
-//             total = total.toFixed(2);
-//             totalperson.innerHTML = `$ ${total}`;
-//         } 
-//     }
-    
-//  })
+    if(bill && person){
+            amount = (bill * custom.value) / person;
+            amount = amount.toFixed(2);
+            tipamount.innerHTML = `$ ${amount}`;
+            total = (bill / person) + (bill * custom.value) / person;
+            total = total.toFixed(2);
+            totalperson.innerHTML = `$ ${total}`;
+        } }
+);
+ 
+  reset = document.querySelector(".reset");
+    reset.addEventListener("click", function resetForm(){  
+       document.querySelector(".amount").reset();
+         }
+) 

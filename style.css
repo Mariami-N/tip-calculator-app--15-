@@ -88,7 +88,7 @@ button{
 button:hover{
     cursor: pointer;
 }
-.Custom{
+.custom{
     Width: 117px;
     Height: 48px;
     border-radius: 5px;
@@ -102,10 +102,10 @@ button:hover{
     line-height: 36px;
     text-align: right;
 }
-.Custom::placeholder{
+.custom::placeholder{
     text-align: center;
 }
-.Custom:hover{
+.custom:hover{
 cursor: pointer;
 }
 .percent15{
