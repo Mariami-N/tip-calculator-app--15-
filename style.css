@@ -23,8 +23,6 @@
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-
-    display: inline-block;
 }
 .box{
     Width: 920px;
@@ -59,7 +57,7 @@ h6{
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
-    Width: 379px;
+    Width: 311px;
     Height: 388px;
     margin-top: 45px;
     left: 48px;
@@ -285,14 +283,106 @@ h4{
     font-size: 13px;
     line-height: 19px;
     color: #7F9D9F;
-
 }
 
 
 
 @media(max-width:375px){
+.title{
+    Width: 87px;
+    Height: 54px;
+    top: 50px;
+    left: 144px;
+    }
 .box{
     Width: 375px;
     Height: 789px;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.first{
+    margin-left: 32px;
+    margin-top: 32px;
+    width: 320px;
+    height: 412px;
+}
+.bill{
+    width: 311px;
+    height: 48px;
+    margin-top: 6px;
+    bottom: 30px;
+}
+.h6{
+    margin-bottom: 16px;
+    width: 140px;
+    height: 24px;
+}
+.buttons{
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    gap: 16px;
+}  
+button{
+    Width: 147px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+.custom{
+    Width: 145px;
+    height: 48px;
+}
+.labels{
+    width: 311px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.people{
+    margin-bottom: 6px;
+}
+.person{
+    width: 311px;
+    height: 48px;
+}
+.second{
+    Width: 327px;
+    Height: 257px;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+.amount{
+    width: 281px;
+    height: 196px;
+    margin-left: 24px;
+    margin-right: 22px ;
+}
+.tip{
+    width: 281px;
+    height: 55px;
+    margin-top: 15px;
+}
+.total{
+    width: 281px;
+    height: 55px;
+    margin-top: 10px;
+}
+.tipamount{
+    font-size: 32px;
+    line-height: 47px;
+}
+.totalperson{
+    font-size: 32px;
+    line-height: 47px;
+}
+.reset{
+    width: 281px;
+    font-size: 20px;
+    margin-top: 35px;
 }
 }
