@@ -10,10 +10,36 @@ let percent50 = document.querySelector(".percent50");
 let tipamount = document.querySelector(".tipamount");
 let totalperson = document.querySelector(".totalperson");
 let reset = document.querySelector(".reset");
+let button=document.querySelector("button");
+
+    percent5.addEventListener("click", function () {
+    percent5.classList.toggle("gray")
+})
+
+    percent10.addEventListener("click", function () {
+    percent10.classList.toggle("gray");
+   
+})
+
+    percent15.addEventListener("click", function () {
+    percent15.classList.toggle("gray");
+   
+})
+
+    percent25.addEventListener("click", function () {
+    percent25.classList.toggle("gray");
+   
+})
+
+    percent50.addEventListener("click", function () {
+    percent50.classList.toggle("gray");
+   
+})  
 
 person.addEventListener("input", function () {
    person = document.querySelector(".person");
    zero = document.querySelector(".zero");
+   
   if (person.value == "0") {
       zero.style.display ="block";
       person.style.border = "1px solid red";
@@ -23,10 +49,13 @@ person.addEventListener("input", function () {
   }
 });
 
+
     percent5 = document.querySelector(".percent5");
     percent5.addEventListener("click",function () { 
     bill = document.querySelector(".bill").value;
     person = document.querySelector(".person").value;
+    
+
 
     if(bill && person){
         amount = (bill * 0.05) / person;
@@ -42,7 +71,7 @@ person.addEventListener("input", function () {
     percent10.addEventListener("click",function () { 
      bill = document.querySelector(".bill").value;
      person = document.querySelector(".person").value;
-
+     
     if(bill && person){
         amount = (bill * 0.10) / person;
         amount = amount.toFixed(2);
@@ -103,7 +132,7 @@ percent50.addEventListener("click", function () {
     custom.addEventListener("input", function (){
         bill = document.querySelector(".bill").value;
         person = document.querySelector(".person").value;
-
+      
     if(bill && person){
             amount = (bill * custom.value) / person;
             amount = amount.toFixed(2);

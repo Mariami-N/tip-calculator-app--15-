@@ -106,7 +106,13 @@ button:hover{
 .custom:hover{
 cursor: pointer;
 }
-.percent15{
+.yellowbtn{
+    background-color: yellow;
+}
+.gray{
+    background-color: gray;
+}
+/* .percent15{
     background-color: #cccec5;
     color: #15011e;
     font-family: 'Shantell Sans';
@@ -115,7 +121,7 @@ cursor: pointer;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-}
+} */
 .inputbill{
     width: 379px;
     height: 48px;
@@ -136,9 +142,9 @@ cursor: pointer;
 .bill{
     Width: 300px;
     Height: 45px;
-    margin-left: 30px;
     border-radius: 5px;
-    border: none;
+    border: 0;
+    outline: 0;
     background-color: #FFFFFF;
     color: #29242b;
     font-family: 'Shantell Sans';
@@ -176,7 +182,8 @@ cursor: pointer;
     Width: 300px;
     Height: 45px;
     margin-left: 50px;
-    border: none;
+    border: 0;
+    outline: 0;
     background-color: white;
     color: #00474B;
     font-family: 'Shantell Sans';
