@@ -116,13 +116,31 @@ cursor: pointer;
     line-height: 36px;
     text-align: center;
 }
+.inputbill{
+    width: 379px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputbill p{
+    color: #00474B;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Shantell Sans';
+}
 .bill{
-    Width: 379px;
-    Height: 48px;
+    Width: 300px;
+    Height: 45px;
+    margin-left: 30px;
     border-radius: 5px;
     border: none;
-    background-color: white;
-    color: #00474B;
+    background-color: #FFFFFF;
+    color: #29242b;
     font-family: 'Shantell Sans';
     font-weight: 700;
     font-size: 20px;
@@ -130,7 +148,7 @@ cursor: pointer;
     text-align: right;
 }
 .bill::placeholder{
-    text-align: start;
+    text-align: end;
 }
 .bill:hover{
     cursor: pointer;
@@ -316,9 +334,19 @@ h4{
     width: 320px;
     height: 412px;
 }
-.bill{
-    width: 311px;
+.inputbill{
+    width: 320px;
     height: 48px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bill{
+    width: 200px;
+    height: 40px;
     margin-top: 6px;
     bottom: 30px;
 }
@@ -354,9 +382,18 @@ button{
 .people{
     margin-bottom: 6px;
 }
+.inputdiv{
+    width: 320px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: none;
+}
 .person{
     width: 200px;
-    height: 48px;
+    height: 45px;
+    margin-left: 90px;
+    border: none;
 }
 .second{
     Width: 327px;
