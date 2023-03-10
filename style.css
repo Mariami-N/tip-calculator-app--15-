@@ -145,10 +145,19 @@ cursor: pointer;
     display: flex;
     justify-content: center;
 }
-.person{
-    Width: 379px;
-    Height: 48px;
+.inputdiv{
+    width: 379px;
+    height: 48px;
     border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.personimg{
+    margin-left: 5px;
+}
+.person{
+    Width: 300px;
+    Height: 45px;
+    margin-left: 50px;
     border: none;
     background-color: white;
     color: #00474B;
@@ -160,7 +169,7 @@ cursor: pointer;
     text-align: right;
 }
 .person::placeholder{
-    text-align: start;
+    text-align: end;
 }
 .person:hover{
     cursor: pointer;
@@ -346,7 +355,7 @@ button{
     margin-bottom: 6px;
 }
 .person{
-    width: 311px;
+    width: 200px;
     height: 48px;
 }
 .second{
