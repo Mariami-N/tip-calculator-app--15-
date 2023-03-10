@@ -36,9 +36,9 @@ let button=document.querySelector("button");
    
 })  
 
-person.addEventListener("input", function () {
-   person = document.querySelector(".person");
-   zero = document.querySelector(".zero");
+    person.addEventListener("input", function () {
+    person = document.querySelector(".person");
+    zero = document.querySelector(".zero");
    
   if (person.value == "0") {
       zero.style.display ="block";
@@ -55,8 +55,6 @@ person.addEventListener("input", function () {
     bill = document.querySelector(".bill").value;
     person = document.querySelector(".person").value;
     
-
-
     if(bill && person){
         amount = (bill * 0.05) / person;
         amount = amount.toFixed(2);
@@ -83,8 +81,8 @@ person.addEventListener("input", function () {
 }
 );
 
-percent15 = document.querySelector(".percent15");
-percent15.addEventListener("click",function () { 
+    percent15 = document.querySelector(".percent15");
+    percent15.addEventListener("click",function () { 
      bill = document.querySelector(".bill").value;
      person = document.querySelector(".person").value;
      
@@ -98,8 +96,8 @@ percent15.addEventListener("click",function () {
     } 
 });
     
-percent25 = document.querySelector(".percent25");
-percent25.addEventListener("click",function () { 
+    percent25 = document.querySelector(".percent25");
+    percent25.addEventListener("click",function () { 
      bill = document.querySelector(".bill").value;
      person = document.querySelector(".person").value;
      
@@ -113,8 +111,8 @@ percent25.addEventListener("click",function () {
     } console.log(amount)
 });
 
-percent50 = document.querySelector(".percent50");
-percent50.addEventListener("click", function () { 
+    percent50 = document.querySelector(".percent50");
+    percent50.addEventListener("click", function () { 
      bill = document.querySelector(".bill").value;
      person = document.querySelector(".person").value;
      
